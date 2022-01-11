@@ -71,11 +71,6 @@ check_wordle <- function(res, try) {
 }
 
 
-res <- "disco"
-try <- "regla"
-try <- "tubos"
-try <- "socio"
-# try <- words[1]
 try_word <- function(res, try, words) {
   colors <- check_wordle(res, try)
   
